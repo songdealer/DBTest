@@ -29,3 +29,14 @@ struct User: Codable, FetchableRecord, MutablePersistableRecord {
     var name: String
     var age: UInt8
 }
+```
+
+
+1. User Table 생성을 누르고,
+<img src="thumbnail.png" width="300" align="center"/>
+
+2. 데이터를 입력 한 뒤, User Data 삽입을 누르면, 데이터베이스에 데이터가 저장됩니다.
+<img src="thumbnailBeforeInsert.png" width="300"/>
+
+3. User Data 읽기를 누르면 데이터베이스에 저장된 데이터가 print됩니다.
+<img src="logAfterInsert.png" width="600"/>
