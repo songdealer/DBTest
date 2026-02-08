@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		334358F60CD97C7C6960199F /* Pods_DBTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30228E9B0FC38E4143AF884D /* Pods_DBTestTests.framework */; };
+		CB6474DB0DED752DCF7C4BC3 /* Pods_DBTest_DBTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D921FC7C517E3AE62743CE85 /* Pods_DBTest_DBTestUITests.framework */; };
+		F42B1F1A25CA3D49A7E7C032 /* Pods_DBTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7B7B35C2362BBA4B39869D /* Pods_DBTest.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CE7FD0F92F376D5B0052E7CE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1074EECA7381B8F707816DD0 /* Pods-DBTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBTest.debug.xcconfig"; path = "Target Support Files/Pods-DBTest/Pods-DBTest.debug.xcconfig"; sourceTree = "<group>"; };
+		20BCA2CB88DC830A3CC9D148 /* Pods-DBTest-DBTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBTest-DBTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-DBTest-DBTestUITests/Pods-DBTest-DBTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		30228E9B0FC38E4143AF884D /* Pods_DBTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7B7B35C2362BBA4B39869D /* Pods_DBTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		625C2C9B40BE3CA0724DE112 /* Pods-DBTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBTest.release.xcconfig"; path = "Target Support Files/Pods-DBTest/Pods-DBTest.release.xcconfig"; sourceTree = "<group>"; };
+		9521B4757F23CDDE9B91728A /* Pods-DBTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBTestTests.debug.xcconfig"; path = "Target Support Files/Pods-DBTestTests/Pods-DBTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE7FD0E82F376D5A0052E7CE /* DBTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7FD0F82F376D5B0052E7CE /* DBTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE7FD1022F376D5B0052E7CE /* DBTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DBTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D921FC7C517E3AE62743CE85 /* Pods_DBTest_DBTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBTest_DBTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F578C7E676E5F4B018CAE639 /* Pods-DBTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBTestTests.release.xcconfig"; path = "Target Support Files/Pods-DBTestTests/Pods-DBTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8DD3246C03DEF33C354392C /* Pods-DBTest-DBTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBTest-DBTestUITests.release.xcconfig"; path = "Target Support Files/Pods-DBTest-DBTestUITests/Pods-DBTest-DBTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42B1F1A25CA3D49A7E7C032 /* Pods_DBTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				334358F60CD97C7C6960199F /* Pods_DBTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +83,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6474DB0DED752DCF7C4BC3 /* Pods_DBTest_DBTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80D83A8FBAF2C47048498203 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E7B7B35C2362BBA4B39869D /* Pods_DBTest.framework */,
+				D921FC7C517E3AE62743CE85 /* Pods_DBTest_DBTestUITests.framework */,
+				30228E9B0FC38E4143AF884D /* Pods_DBTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE7FD0DF2F376D5A0052E7CE = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +107,8 @@
 				CE7FD0FB2F376D5B0052E7CE /* DBTestTests */,
 				CE7FD1052F376D5B0052E7CE /* DBTestUITests */,
 				CE7FD0E92F376D5A0052E7CE /* Products */,
+				F73D1BA9F0F3A001F2D92CB1 /* Pods */,
+				80D83A8FBAF2C47048498203 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +122,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F73D1BA9F0F3A001F2D92CB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1074EECA7381B8F707816DD0 /* Pods-DBTest.debug.xcconfig */,
+				625C2C9B40BE3CA0724DE112 /* Pods-DBTest.release.xcconfig */,
+				20BCA2CB88DC830A3CC9D148 /* Pods-DBTest-DBTestUITests.debug.xcconfig */,
+				F8DD3246C03DEF33C354392C /* Pods-DBTest-DBTestUITests.release.xcconfig */,
+				9521B4757F23CDDE9B91728A /* Pods-DBTestTests.debug.xcconfig */,
+				F578C7E676E5F4B018CAE639 /* Pods-DBTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7FD10C2F376D5B0052E7CE /* Build configuration list for PBXNativeTarget "DBTest" */;
 			buildPhases = (
+				DB22DFCF7221FD51886834B5 /* [CP] Check Pods Manifest.lock */,
 				CE7FD0E42F376D5A0052E7CE /* Sources */,
 				CE7FD0E52F376D5A0052E7CE /* Frameworks */,
 				CE7FD0E62F376D5A0052E7CE /* Resources */,
+				ED85DA8F3ADB5F711CEEA5FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,8 +156,6 @@
 				CE7FD0EA2F376D5A0052E7CE /* DBTest */,
 			);
 			name = DBTest;
-			packageProductDependencies = (
-			);
 			productName = DBTest;
 			productReference = CE7FD0E82F376D5A0052E7CE /* DBTest.app */;
 			productType = "com.apple.product-type.application";
@@ -121,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7FD10F2F376D5B0052E7CE /* Build configuration list for PBXNativeTarget "DBTestTests" */;
 			buildPhases = (
+				A12F8A7CA9ECF3B196281EBF /* [CP] Check Pods Manifest.lock */,
 				CE7FD0F42F376D5B0052E7CE /* Sources */,
 				CE7FD0F52F376D5B0052E7CE /* Frameworks */,
 				CE7FD0F62F376D5B0052E7CE /* Resources */,
@@ -134,8 +178,6 @@
 				CE7FD0FB2F376D5B0052E7CE /* DBTestTests */,
 			);
 			name = DBTestTests;
-			packageProductDependencies = (
-			);
 			productName = DBTestTests;
 			productReference = CE7FD0F82F376D5B0052E7CE /* DBTestTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -144,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE7FD1122F376D5B0052E7CE /* Build configuration list for PBXNativeTarget "DBTestUITests" */;
 			buildPhases = (
+				DD5326F998168A340A8171E8 /* [CP] Check Pods Manifest.lock */,
 				CE7FD0FE2F376D5B0052E7CE /* Sources */,
 				CE7FD0FF2F376D5B0052E7CE /* Frameworks */,
 				CE7FD1002F376D5B0052E7CE /* Resources */,
+				A9A6FD6E8DBDE03B593F7E6E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,8 +201,6 @@
 				CE7FD1052F376D5B0052E7CE /* DBTestUITests */,
 			);
 			name = DBTestUITests;
-			packageProductDependencies = (
-			);
 			productName = DBTestUITests;
 			productReference = CE7FD1022F376D5B0052E7CE /* DBTestUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -230,6 +272,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A12F8A7CA9ECF3B196281EBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DBTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A6FD6E8DBDE03B593F7E6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DBTest-DBTestUITests/Pods-DBTest-DBTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DBTest-DBTestUITests/Pods-DBTest-DBTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DBTest-DBTestUITests/Pods-DBTest-DBTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB22DFCF7221FD51886834B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DBTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD5326F998168A340A8171E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DBTest-DBTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED85DA8F3ADB5F711CEEA5FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DBTest/Pods-DBTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DBTest/Pods-DBTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DBTest/Pods-DBTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE7FD0E42F376D5A0052E7CE /* Sources */ = {
@@ -390,13 +535,16 @@
 		};
 		CE7FD10D2F376D5B0052E7CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1074EECA7381B8F707816DD0 /* Pods-DBTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DBTest/Preview Content\"";
+				DEVELOPMENT_TEAM = CK3K4P4V36;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -418,13 +566,16 @@
 		};
 		CE7FD10E2F376D5B0052E7CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 625C2C9B40BE3CA0724DE112 /* Pods-DBTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DBTest/Preview Content\"";
+				DEVELOPMENT_TEAM = CK3K4P4V36;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -446,10 +597,12 @@
 		};
 		CE7FD1102F376D5B0052E7CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9521B4757F23CDDE9B91728A /* Pods-DBTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
@@ -464,10 +617,12 @@
 		};
 		CE7FD1112F376D5B0052E7CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F578C7E676E5F4B018CAE639 /* Pods-DBTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
@@ -482,9 +637,11 @@
 		};
 		CE7FD1132F376D5B0052E7CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20BCA2CB88DC830A3CC9D148 /* Pods-DBTest-DBTestUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MinG.DBTestUITests;
@@ -498,9 +655,11 @@
 		};
 		CE7FD1142F376D5B0052E7CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8DD3246C03DEF33C354392C /* Pods-DBTest-DBTestUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CK3K4P4V36;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.MinG.DBTestUITests;
